@@ -95,3 +95,25 @@ body { background-color: #121212; color: #e0e0e0; }
     color: #e68a00;
     text-decoration: underline;
 }
+.hero-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.instagram-link {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    color: white;
+    font-weight: bold;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.instagram-link:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
